@@ -23,7 +23,7 @@ git clone https://github.com/aosheng1996/BUFFER && cd BUFFER
 - Setup conda virtual environment
 ```
 conda create -n buffer python=3.8
-source activate buffer
+conda activate buffer
 pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
 pip install open3d==0.13.0
 
